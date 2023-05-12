@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+   TODO ScrollView에서 fillViewport 옵션이 무슨 역할이지?
+-->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,9 +12,10 @@
     android:fillViewport="true"
     tools:context=".MainActivity">
 
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:id="@+id/linearLayout"
