@@ -24,7 +24,6 @@ class TvShowAdapter : RecyclerView.Adapter<TvShowAdapter.MyViewHolder>() {
         }
     }
 
-    // TODO differ 이게 뭐지?
     private val differ = AsyncListDiffer(this, diffCallback)
 
     var tvShows: List<TvShowItem>
